@@ -11,7 +11,7 @@ function Quadrado({valor, clickValor}) {
 function Tabuleiro({VezDoX, valores, handleClick}) {
     let vencedor
     if(Rodadas > 4) {
-        const vencedor = verificarVencedor(valores);
+        vencedor = verificarVencedor(valores);
     }
 
     let Mensagem;
